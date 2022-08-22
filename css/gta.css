@@ -1,0 +1,483 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 120vh;
+}
+
+.pesquisa {
+    position: absolute;
+    top: 68px;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    padding: 0px;
+    background: rgba(218, 218, 218, 0.358);
+    /*COR BALAO*/
+}
+
+.pesquisa-botao {
+    color: rgb(0, 0, 0);
+    /* LUPA COR */
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(252, 0, 0, 0);
+    ;
+    /*cor bolinha lupa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesquisa-texto {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0px 0px 0px 15px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    transition: all 0.4s ease 0s;
+    line-height: 40px;
+    width: 250px;
+    /*tamanho barra de texto*/
+}
+
+.logo {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    left: 18px;
+    top: -34px;
+    user-select: none;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 42px;
+    top: -1px;
+    background: #8400A3;
+
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    height: 42px;
+    top: -1px;
+    background: #8400A3;
+
+}
+
+.carrinho {
+    position: absolute;
+    left: 71.5%;
+    top: -1px;
+}
+
+
+.gta {
+    position: absolute;
+    top: 110px;
+    width: 174px;
+    height: 307px;
+    left: 380px;
+    user-select: none;
+}
+
+.vant {
+    position: absolute;
+    top: 835px;
+    width: 100%;
+    user-select: none;
+}
+
+.usados:hover {
+    color: #000000;
+}
+
+.usados {
+    position: absolute;
+    width: 146px;
+    height: 34px;
+    left: 402px;
+    top: -13px;
+    font-family: "Lemon Milk";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 48px;
+    user-select: none;
+    color: rgb(209, 209, 209);
+}
+
+.acessorios:hover {
+    color: #000000;
+}
+
+.acessorios {
+    position: absolute;
+    width: 146px;
+    height: 34px;
+    left: 520px;
+    top: -13px;
+    font-family: "Lemon Milk";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 48px;
+    user-select: none;
+    color: rgb(209, 209, 209);
+}
+
+.audio:hover {
+    color: #000000;
+}
+
+.audio {
+    position: absolute;
+    width: 146px;
+    height: 34px;
+    left: 689px;
+    top: -13px;
+    font-family: "Lemon Milk";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 48px;
+    user-select: none;
+    color: rgb(209, 209, 209);
+}
+
+.informatica:hover {
+    color: #000000;
+}
+
+.informatica {
+    position: absolute;
+    width: 146px;
+    height: 34px;
+    left: 780px;
+    top: -13px;
+    font-family: "Lemon Milk";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 48px;
+    user-select: none;
+    color: rgb(209, 209, 209);
+}
+
+
+
+.descricao {
+    position: absolute;
+    width: 546px;
+    height: 54px;
+    left: 429px;
+    top: 420px;
+    font-family: "Lemon Milk";
+    font-style: normal;
+    font-size: 35px;
+    line-height: 50px;
+    text-shadow: 0px 5px 5px rgb(0 0 0 / 28%);
+    user-select: none;
+}
+
+.compra {
+    position: absolute;
+    top: 211px;
+    border-radius: 20px;
+    width: 215px;
+    height: 27px;
+    left: 600px;
+    box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.349);
+    user-select: none;
+}
+
+.preco {
+    position: absolute;
+    width: 146px;
+    height: 34px;
+    left: 600px;
+    top: 135px;
+    font-family: "Lemon Milk";
+    font-style: normal;
+    font-size: 25px;
+    line-height: 48px;
+    user-select: none;
+}
+
+.compra2 {
+    position: absolute;
+    top: 256px;
+    width: 380px;
+    height: 150px;
+    left: 595px;
+    user-select: none;
+}
+
+.descprod1 {
+    position: absolute;
+    left: 144px;
+    top: 513px;
+    width: 1100px;
+    height: 100px;
+    text-align: center;
+    font-family: "Lemon Milk";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 15px
+}
+
+.descprod2 {
+    position: absolute;
+    left: 152px;
+    top: 638px;
+    width: 1100px;
+    height: 100px;
+    text-align: center;
+    font-family: "Lemon Milk";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.descprod3 {
+    position: absolute;
+    left: 137px;
+    top: 729px;
+    width: 1100px;
+    height: 100px;
+    text-align: center;
+    font-family: "Lemon Milk";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.carrin {
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    left: 1085px;
+    top: 6px;
+    opacity: 0;
+    background: #ff0000;
+    user-select: none;
+}
+
+.mconta {
+    position: absolute;
+    width: 146px;
+    height: 34px;
+    left: 1085px;
+    top: -10px;
+    font-family: "Lemon Milk";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 48px;
+    user-select: none;
+}
+
+.nomejogo {
+    position: absolute;
+    left: 47%;
+    top: 115px;
+    font-size: 20px;
+}
+
+.verde {
+    position: absolute;
+    top: 211px;
+    border-radius: 20px;
+    width: 215px;
+    height: 27px;
+    left: 600px;
+    box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.349);
+    user-select: none;
+}
+
+@media screen and (width:1920px),
+(zoom),
+(height:1080px) {
+    .mconta2 {
+        position: absolute;
+        width: 146px;
+        height: 34px;
+        left: 1695px;
+        top: -10px;
+        font-family: "Lemon Milk";
+        font-style: normal;
+        font-size: 15px;
+        line-height: 48px;
+        user-select: none;
+        color: rgb(209, 209, 209);
+    }
+
+    .forza2 {
+        position: absolute;
+        top: 224px;
+        width: 174px;
+        height: 307px;
+        left: 655px;
+        user-select: none;
+    }
+
+    .preco2 {
+        position: absolute;
+        width: 146px;
+        height: 34px;
+        left: 883px;
+        top: 222px;
+        font-family: "Lemon Milk";
+        font-style: normal;
+        font-size: 25px;
+        line-height: 48px;
+        user-select: none;
+    }
+
+    .compra3{
+        position: absolute;
+        top: 350px;
+        width: 380px;
+        height: 150px;
+        left: 885px;
+        user-select: none;
+    }
+
+    .carrin2 {
+        position: absolute;
+        width: 120px;
+        height: 25px;
+        left: 1695px;
+        top: 6px;
+        opacity: 0;
+        background: #ff0000;
+    }
+
+    .informatica2 {
+        position: absolute;
+        width: 146px;
+        height: 34px;
+        left: 1122px;
+        top: -13px;
+        font-family: "Lemon Milk";
+        font-style: normal;
+        font-size: 15px;
+        line-height: 48px;
+        user-select: none;
+        color: rgb(209, 209, 209);
+    }
+
+    .audio2 {
+        position: absolute;
+        width: 146px;
+        height: 34px;
+        left: 1007px;
+        top: -13px;
+        font-family: "Lemon Milk";
+        font-style: normal;
+        font-size: 15px;
+        line-height: 48px;
+        user-select: none;
+        color: rgb(209, 209, 209);
+    }
+
+    .acessorios2 {
+        position: absolute;
+        width: 146px;
+        height: 34px;
+        left: 830px;
+        top: -13px;
+        font-family: "Lemon Milk";
+        font-style: normal;
+        font-size: 15px;
+        line-height: 48px;
+        user-select: none;
+        color: rgb(209, 209, 209);
+    }
+
+    .usados2 {
+        position: absolute;
+        width: 146px;
+        height: 34px;
+        left: 714px;
+        top: -13px;
+        font-family: "Lemon Milk";
+        font-style: normal;
+        font-size: 15px;
+        line-height: 48px;
+        user-select: none;
+        color: rgb(209, 209, 209);
+    }
+
+    .verde2{
+        position: absolute;
+        top: 295px;
+        border-radius: 20px;
+        width: 215px;
+        height: 27px;
+        left: 880px;
+        box-shadow: 0px 1px 25px rgb(0 0 0 / 35%);
+        user-select: none;
+    }
+
+    .desc2{
+        position: absolute;
+        width: 546px;
+        height: 54px;
+        left: 705px;
+        top: 522px;
+        font-family: "Lemon Milk";
+        font-style: normal;
+        font-size: 35px;
+        line-height: 50px;
+        text-shadow: 0px 5px 5px rgb(0 0 0 / 28%);
+        user-select: none;
+    }
+
+    .descprod12{
+        position: absolute;
+        left: 400px;
+        top: 590px;
+        width: 1100px;
+        height: 100px;
+        text-align: center;
+        font-family: "Lemon Milk";
+        font-style: normal;
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .descprod22{
+        position: absolute;
+    left: 390px;
+    top: 675px;
+    width: 1100px;
+    height: 100px;
+    text-align: center;
+    font-family: "Lemon Milk";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 15px;
+    }
+
+    .descprod32{
+        position: absolute;
+    left: 405px;
+    top: 729px;
+    width: 1100px;
+    height: 100px;
+    text-align: center;
+    font-family: "Lemon Milk";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 15px;
+    }
+
+    .vant2{
+        position: absolute;
+        top: 1010px;
+        width: 100%;
+        user-select: none;
+    }
+}

@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 120vh;
+}
+
+#ts{
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    left: 1014px;
+    top: 4px;
+}
+.pesquisa {
+    position: absolute;
+    top: 68px;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    padding: 0px;
+    background: rgba(218, 218, 218, 0.358);
+    /*COR BALAO*/
+}
+
+.pesquisa-botao {
+    color: rgb(0, 0, 0);
+    /* LUPA COR */
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(252, 0, 0, 0);
+    ;
+    /*cor bolinha lupa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesquisa-texto {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0px 0px 0px 15px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    transition: all 0.4s ease 0s;
+    line-height: 40px;
+    width: 250px;
+    /*tamanho barra de texto*/
+}
+
+.logo {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    left: 18px;
+    top: -34px;
+    user-select: none;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    height: 42px;
+    top: -1px;
+    background: #8400A3;
+
+}
+
+.carrinho {
+    position: absolute;
+    left: 71.5%;
+    top: -1px;
+}
+
+
+.carrinho {
+    position: absolute;
+    left: 71.5%;
+    top: -1px;
+}
+
+
+.ps4 {
+    position: absolute;
+    top: 41px;
+    width: 100%;
+    height: 269px;
+    object-fit: cover;
+    user-select: none;
+}
+
+.gta {
+    position: absolute;
+    top: 415px;
+    width: 174px;
+    height: 307px;
+    left: 390px;
+    user-select: none;
+}
+
+.forza {
+    position: absolute;
+    top: 415px;
+    width: 174px;
+    height: 307px;
+    left: 587px;
+    user-select: none;
+}
+
+.mine {
+    position: absolute;
+    top: 415px;
+    width: 174px;
+    height: 307px;
+    left: 786px;
+    user-select: none;
+}
+
+.vant {
+    position: absolute;
+    top: 299px;
+    width: 100%;
+    user-select: none;
+}
+
+.usados:hover {
+    color: #000000;
+}
+
+.usados {
+    position: absolute;
+    width: 146px;
+    height: 34px;
+    left: 402px;
+    top: -5px;
+    font-family: "Lemon Milk";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 48px;
+    user-select: none;
+    color: rgb(209, 209, 209);
+}
+
+.acessorios:hover {
+    color: #000000;
+}
+
+.acessorios {
+    position: absolute;
+    width: 146px;
+    height: 34px;
+    left: 520px;
+    top: -5px;
+    font-family: "Lemon Milk";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 48px;
+    user-select: none;
+    color: rgb(209, 209, 209);
+}
+
+.audio:hover {
+    color: #000000;
+}
+
+.audio {
+    position: absolute;
+    width: 146px;
+    height: 34px;
+    left: 689px;
+    top: -5px;
+    font-family: "Lemon Milk";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 48px;
+    user-select: none;
+    color: rgb(209, 209, 209);
+}
+
+.informatica:hover {
+    color: #000000;
+}
+
+.informatica {
+    position: absolute;
+    width: 146px;
+    height: 34px;
+    left: 780px;
+    top: -5px;
+    font-family: "Lemon Milk";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 48px;
+    user-select: none;
+    color: rgb(209, 209, 209);
+}
+
+.destaque {
+    position: absolute;
+    width: 146px;
+    height: 34px;
+    left: 565px;
+    top: 358px;
+    font-family: "Lemon Milk";
+    font-style: normal;
+    font-size: 35px;
+    line-height: 48px;
+    text-shadow: 0px 5px 5px rgb(0 0 0 / 35%);
+    user-select: none;
+}
+
+.carrin {
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    left: 1085px;
+    top: 6px;
+    opacity: 0;
+    background: #ff0000;
+}
+
+.mconta {
+    position: absolute;
+    width: 146px;
+    height: 34px;
+    left: 1085px;
+    top: -5px;
+    font-family: "Lemon Milk";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 48px;
+    user-select: none;
+    color: rgb(209, 209, 209);
+}
+
+
+
+@media screen and (width:1920px),
+(zoom),
+(height:1080px) {
+    .responsivo {
+    }
+
+    .capinha-responsivo{
+        position: absolute;
+        left: 300px;
+    }
+
+    .escritas-responsivo{
+        position: absolute;
+        left: 350px;
+    }
+
+    .botao-respon{
+        position: absolute;
+        left: 440px;
+        top: 4px;
+    }
+
+    .mconta2{
+        position: absolute;
+        left: 1500px;
+    }
+
+    .carrin2{
+        position: absolute;
+        left: 1500px;
+    }
+}

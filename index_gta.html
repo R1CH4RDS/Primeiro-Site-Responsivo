@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Game Mania</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" type="text/css" href="css/gta.css">
+    <script src="https://kit.fontawesome.com/eb5b010c14.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="NOMECOMPRA">
+        <h1 class="nomejogo" id="p1nome">GRAND THEFT AUTO V</p>
+        </h1>
+        <p id="p1preco">151,90 R$</p>
+        <p id="p1quantidade"></p>
+    </div>
+    <div class="BOTAOCOMPRA">
+        <br><a href="index_final.html"> <img class="verde verde2" src="img/Screenshot_80.png" height="27" width="215" border-radius="20" value="Adicionar"
+            onclick="
+        addCarrinho(
+            document.getElementById('p1nome').textContent, //nome
+            document.getElementById('p1preco').textContent, //preco
+            document.getElementById('p1quantidade').value, //quantidade
+            1)"></a> <!-- quantos elementos foram adiconados -->
+    </div>
+    <div class="container">
+        <div class="navbar"></div>
+        <h1 class="usados usados2">
+            usados
+        </h1>
+        <h1 class="acessorios acessorios2">
+            acessórios
+        </h1>
+        <h1 class="audio audio2">
+            áudio
+        </h1>
+        <h1 class="informatica informatica2">
+            informatica
+        </h1>
+        <h1 class="descricao desc2">
+            DESCRIÇÃO DO PRODUTO
+        </h1>
+        <h1 class="preco preco2">
+            R$ 151.90
+        </h1>
+        <h1 class="descprod1 descprod12">
+            O Grand Theft Auto V: Edição Premium inclui o Modo História completo do Grand Theft Auto V, acesso gratuito
+            ao mundo em constante evolução do Grand Theft Auto Online e todo o conteúdo e melhorias de jogo já lançados,
+            incluindo o Golpe de Cayo Perico, o Cassino e Resort Diamond, o Golpe do Cassino Diamond, Tráfico de Armas e
+            muito mais. Você também recebe o Kit Inicial de Esquema Criminal, a maneira mais rápida de começar seu
+            império do crime no Grand Theft Auto Online.
+        </h1>
+        <h1 class="descprod2 descprod22">
+            GRAND THEFT AUTO V
+            Quando um malandro de rua, um ladrão de bancos aposentado e um psicopata aterrorizante se veem encrencados,
+            eles precisam realizar uma série de golpes ousados para sobreviver em uma cidade onde não podem confiar em
+            ninguém, nem mesmo um no outro.
+        </h1>
+        <h1 class="descprod3 descprod33">
+            GRAND THEFT AUTO ONLINE
+            Descubra um mundo de escolhas e maneiras de jogar à medida em que você sobe na hierarquia do crime de Los
+            Santos e Blaine County na experiência online definitiva.
+        </h1>
+    </div>
+    <div class="imagens">
+        <img class="compra2 compra3" src="img/Screenshot_7.png">
+        <a href="index.html"> <img class="logo" src="img/logo.png" alt="logo"></a>
+        <h1 class="mconta mconta2">
+            Minha Conta
+        </h1>
+    </div>
+    <div class="capinha">
+        <img class="gta gta2" src="img/gta_5.png">
+    </div>
+
+    <div class="pesquisa">
+        <input class="pesquisa-texto" type="text" name="" placeholder="O que você esta procurando hoje? ">
+        <a class="pesquisa-botao" href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+    </div>
+    <a href="index_login.html">
+        <div class="carrin carrin2"></div>
+    </a>
+</body>
+<footer>
+    <div class="vantagem">
+        <img class="vant vant2" src="img/vantagem.png">
+    </div>
+</footer>
+<script src="java/compra.js"></script>
+
+</html>
